@@ -1,1 +1,1 @@
-This is the shared repository of [link] (42rejects.com "42 Rejects")' December 2016 C Language Learning Group. Each member of the group has a folder containing their contributions. For more information, visit [link] (42rejects.slack.com "our Slack channel").
+This is the shared repository of [42 Rejects] (42rejects.com "42 Rejects")' December 2016 C Language Learning Group. Each member of the group has a folder containing their contributions. For more information, visit [our Slack channel] (42rejects.slack.com "Slack").
