@@ -4,7 +4,9 @@
 This is the shared repository of [42 Rejects] (http://42rejects.com "42 Rejects")' December 2016 C Language Learning Group. Each member of the group has a folder containing their contributions. For more information, visit [our Slack channel] (http://42rejects.slack.com "Slack").
 
 ## Current work
-TBA (actively discussing what to start with on the Slack)
+* K&R chapter 1 exercises
+* Piscene Day02 exercises
+* #AlwaysBeCoding exercises
 
 ## Curriculum
 * [42 October 2016 Piscene] (http://42rejects.com/42-October-Piscene.zip)
