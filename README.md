@@ -13,6 +13,7 @@ TBA (actively discussing what to start with on the Slack)
 
 ## Members
 * [toymechqm] (https://github.com/toymechqm) (Josh Toy)
+* [iJUK3i] (https://github.com/iJUK3i) (Kevin Smith)
 * [sdk7327] (https://github.com/sdk7327) (Sarah Kohl)
 * [roccaturi] (https://github.com/roccaturi) (Brian Burnley)
 
