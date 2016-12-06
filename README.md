@@ -4,9 +4,9 @@
 This is the shared repository of [42 Rejects] (http://42rejects.com "42 Rejects")' December 2016 C Language Learning Group. Each member of the group has a folder containing their contributions. For more information, visit [our Slack channel] (http://42rejects.slack.com "Slack").
 
 ## Current work
-* K&R chapter 1 exercises
+* K&R book chapter 1 exercises
 * Piscene Day02 exercises
-* #AlwaysBeCoding exercises
+* [#AlwaysBeCoding] (https://twitter.com/42rejects) exercises
 
 ## Curriculum
 * [42 October 2016 Piscene] (http://42rejects.com/42-October-Piscene.zip)
@@ -15,7 +15,7 @@ This is the shared repository of [42 Rejects] (http://42rejects.com "42 Rejects"
 
 ## Members
 * [toymechqm] (https://github.com/toymechqm) (Josh Toy)
-* [iJUK3i] (https://github.com/iJUK3i) (Kevin Smith)
+* [iJUK3i] (https://github.com/iJUK3i) (Khris Smith)
 * [sdk7327] (https://github.com/sdk7327) (Sarah Kohl)
 * [roccaturi] (https://github.com/roccaturi) (Brian Burnley)
 
