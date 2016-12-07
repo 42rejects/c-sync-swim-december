@@ -1,14 +1,12 @@
 /*#############################################################################
 # Name: sh_execute.c
 # Created: 12-06-2016 18:49:40
-# Edited: 12-07-2016 08:08:41
+# Edited: 12-07-2016 11:36:57
 # Creator: Brian Burnley
 # Editor: Brian Burnley
 ##############################################################################*/
 
 #include "shell.h"
-
-#include <string.h>
 
 int     sh_execute(char **args)
 {

@@ -13,7 +13,7 @@ SRCS = ./srcs/*.c
 
 OBJS = ./*.o
 
-all = $(OUTPUT)
+all: $(OUTPUT)
 
 $(OUTPUT):
 	$(COMPILER) $(OPTION) $(SRCS)
@@ -25,6 +25,6 @@ clean:
 fclean: clean
 	/bin/rm -f $(OUTPUT)
 
-re: fclean all
+re:	fclean all
 
 .PHONY: clean fclean all re

@@ -1,15 +1,12 @@
 /*#############################################################################
 # Name: builtins.c
 # Created: 12-06-2016 16:41:00
-# Edited: 12-07-2016 11:07:05
+# Edited: 12-07-2016 11:34:46
 # Creator: Brian Burnley
 # Editor: Brian Burnley
 ##############################################################################*/
 
 #include "shell.h"
-
-#include <stdio.h>
-#include <stdlib.h>
 
 char     *builtin_str[] = {
     "cd",

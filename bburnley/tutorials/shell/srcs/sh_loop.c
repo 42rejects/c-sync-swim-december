@@ -1,15 +1,12 @@
 /*#############################################################################
 # Name: sh_loop.c
 # Created: 12-06-2016 15:11:55
-# Edited: 12-07-2016 08:09:19
+# Edited: 12-07-2016 11:38:52
 # Creator: Brian Burnley
 # Editor: Brian Burnley
 ##############################################################################*/
 
 #include "shell.h"
-
-#include <stdio.h>
-#include <stdlib.h>
 
 void    sh_loop(void)
 {

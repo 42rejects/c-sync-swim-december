@@ -1,15 +1,12 @@
 /*#############################################################################
 # Name: sh_read_line.c
 # Created: 12-06-2016 16:56:30
-# Edited: 12-07-2016 08:10:30
+# Edited: 12-07-2016 11:39:32
 # Creator: Brian Burnley
 # Editor: Brian Burnley
 ##############################################################################*/
 
 #include "shell.h"
-
-#include <stdio.h>
-#include <stdlib.h>
 
 char    *sh_read_line(void)
 {

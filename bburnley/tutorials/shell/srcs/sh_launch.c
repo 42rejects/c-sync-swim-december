@@ -1,17 +1,12 @@
 /*#############################################################################
 # Name: sh_launch.c
 # Created: 12-06-2016 17:10:56
-# Edited: 12-07-2016 08:06:46
+# Edited: 12-07-2016 11:38:15
 # Creator: Brian Burnley
 # Editor: Brian Burnley
 ##############################################################################*/
 
 #include "shell.h"
-
-#include <stdio.h>
-#include <unistd.h>
-#include <sys/wait.h>
-#include <stdlib.h>
 
 int     sh_launch(char **args)
 {

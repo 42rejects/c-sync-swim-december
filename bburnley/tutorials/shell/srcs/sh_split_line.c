@@ -1,16 +1,12 @@
 /*#############################################################################
 # Name: sh_split_line.c
 # Created: 12-06-2016 16:58:16
-# Edited: 12-07-2016 08:10:56
+# Edited: 12-07-2016 11:39:42
 # Creator: Brian Burnley
 # Editor: Brian Burnley
 ##############################################################################*/
 
 #include "shell.h"
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 char    **sh_split_line(char *line)
 {
