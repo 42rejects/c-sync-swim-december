@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/42rejects/c-sync-swim-december.png?label=ready&title=Ready)](https://waffle.io/42rejects/c-sync-swim-december)
 # C Synchronized Swimming December 2016
 
 ## What is this?
