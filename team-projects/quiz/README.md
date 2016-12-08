@@ -16,6 +16,7 @@ Direct Message @skohl in [the Slack] (https://42rejects.slack.com) to register f
 * [roccaturi] (https://github.com/roccaturi) (Technical Consultant - ask me your questions!)
 
 ##Resources
+* [Getting Started Video] (https://www.youtube.com/watch?v=e2VngmKFTww) (demonstrates the workflow)
 * [Waffle Project Management] (https://waffle.io/42rejects/c-sync-swim-december)
 * [Slack C Synchronized Swimming Channel] (https://42rejects.slack.com/messages/c-sync-swim/)
 
