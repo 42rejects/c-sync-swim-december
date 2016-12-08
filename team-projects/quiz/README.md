@@ -18,8 +18,8 @@ Direct Message @skohl in [the Slack] (https://42rejects.slack.com) to register f
 
 ##Rules
 * No includes are allowed other than quiz.h
-* The 42R header must appear on your .c files.
+* You can request that a library be added to quiz.h on the Waffle issue thread
 * No tampering with Makefile, README.md, or includes/quiz.h
+* The 42R header must appear on your .c files.
 * Communicate with each other and the Product Owner via Waffle and the Slack.
 * Use your brain, and have fun!
-
