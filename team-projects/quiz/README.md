@@ -10,6 +10,9 @@ The first team project is to build a quiz application. The program will offer us
 ##Team Members
 Direct Message @skohl in [the Slack] (https://42rejects.slack.com) to register for this project.
 * [sdk7327] (https://github.com/sdk7327) (Product Owner)
+* [truth-seeker1] (https://github.com/truth-seeker1)
+* [rumpumpum] (https://github.com/rumpumpum)
+* [iJUK3i] (https://github.com/iJUK3i)
 * [roccaturi] (https://github.com/roccaturi) (Technical Consultant - ask me your questions!)
 
 ##Resources
@@ -22,5 +25,6 @@ Direct Message @skohl in [the Slack] (https://42rejects.slack.com) to register f
 * You can request that a library be added to quiz.h on the Waffle issue thread
 * No tampering with Makefile, README.md, or includes/quiz.h
 * The 42R header must appear on your .c files.
-* Communicate with each other and the Product Owner via Waffle and the Slack.
+* Ask the Project Owner questions about your taks on the Waffle issue thread.
+* Communicate with your teammates on the Slack channel: c-sync-swim.
 * Use your brain, and have fun!
