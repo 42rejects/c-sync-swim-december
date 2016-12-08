@@ -17,6 +17,7 @@ Direct Message @skohl in [the Slack] (https://42rejects.slack.com) to register f
 * [Slack C Synchronized Swimming Channel] (https://42rejects.slack.com/messages/c-sync-swim/)
 
 ##Rules
+* Your code should follow [The Norm] (http://42rejects.com/norm.pdf).
 * No includes are allowed other than quiz.h
 * You can request that a library be added to quiz.h on the Waffle issue thread
 * No tampering with Makefile, README.md, or includes/quiz.h
