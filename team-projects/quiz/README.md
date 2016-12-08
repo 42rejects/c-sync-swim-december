@@ -8,17 +8,18 @@ The first team project is to build a quiz application. The program will offer us
 * Finish: 12-16-16
 
 ##Team Members
-Direct Message @skohl in [the Slack] (https://42rejects.slack.com) to register for this project.
+Direct message @skohl in [the Slack] (https://42rejects.slack.com) to register for this project.
 * [sdk7327] (https://github.com/sdk7327) (Product Owner)
-* [truth-seeker1] (https://github.com/truth-seeker1)
-* [rumpumpum] (https://github.com/rumpumpum)
-* [iJUK3i] (https://github.com/iJUK3i)
+* [truth-seeker1] (https://github.com/truth-seeker1) (Software Engineer)
+* [rumpumpum] (https://github.com/rumpumpum) (Software Engineer)
+* [iJUK3i] (https://github.com/iJUK3i) (Software Engineer)
 * [roccaturi] (https://github.com/roccaturi) (Technical Consultant - ask me your questions!)
 
 ##Resources
 * [Getting Started Video] (https://www.youtube.com/watch?v=e2VngmKFTww) (demonstrates the workflow)
 * [Waffle Project Management] (https://waffle.io/42rejects/c-sync-swim-december)
-* [Slack C Synchronized Swimming Channel] (https://42rejects.slack.com/messages/c-sync-swim/)
+* [C Synchronized Swimming Slack Channel] (https://42rejects.slack.com/messages/c-sync-swim/)
+* [42R Header] (http://42rejects.com/42R-header.zip)
 
 ##Rules
 * Your code should follow [The Norm] (http://42rejects.com/norm.pdf).
