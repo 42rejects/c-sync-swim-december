@@ -10,9 +10,12 @@ The first team project is to build a quiz application. The program will offer us
 ##Team Members
 Direct message @skohl in [the Slack] (https://42rejects.slack.com) to register for this project.
 * [sdk7327] (https://github.com/sdk7327) (Product Owner)
-* [truth-seeker1] (https://github.com/truth-seeker1) (Software Engineer)
-* [rumpumpum] (https://github.com/rumpumpum) (Software Engineer)
-* [iJUK3i] (https://github.com/iJUK3i) (Software Engineer)
+* [truth-seeker1] (https://github.com/truth-seeker1) (Developer: high score display and reset)
+* [rumpumpum] (https://github.com/rumpumpum) (Developer: program architecture)
+* [iJUK3i] (https://github.com/iJUK3i) (Developer: gameplay logic and score keeping)
+* [1flood23] (https://github.com/1flood23) (Developer: user help)
+* [danr94] (https://github.com/danr94) (Developer: score and game end display)
+* [JamesOrtzz] (https://github.com/JamesOrtzz) (Developer: menu logic)
 * [roccaturi] (https://github.com/roccaturi) (Technical Consultant - ask me your questions!)
 
 ##Resources
@@ -27,6 +30,7 @@ Direct message @skohl in [the Slack] (https://42rejects.slack.com) to register f
 * You can request that a library be added to quiz.h on the Waffle issue thread
 * No tampering with Makefile, README.md, or includes/quiz.h
 * The 42R header must appear on your .c files.
-* Ask the Project Owner questions about your taks on the Waffle issue thread.
+* Write your stand-up post each day, but don't spend more than a minute on it.
+* Ask the Project Owner questions about your task(s) on the Waffle issue thread.
 * Communicate with your teammates on the Slack channel: c-sync-swim.
 * Use your brain, and have fun!
