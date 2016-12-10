@@ -18,7 +18,7 @@ This is the shared repository of [42 Rejects] (http://42rejects.com "42 Rejects"
 ## Members
 * [toymechqm] (https://github.com/toymechqm) (Josh Toy)
 * [iJUK3i] (https://github.com/iJUK3i) (Khris Smith)
-* [rumpumpum] https://github.com/rumpumpum) (Eugene Botnaru)
+* [rumpumpum] (https://github.com/rumpumpum) (Eugene Botnaru)
 * [truth-seeker1] (https://github.com/truth-seeker1) (Bryndyn Fernander)
 * [JamesOrtzz] (https://github.com/JamesOrtzz) (Jonathan Ortiz)
 * [danr94] (https://github.com/danr94) (Danny Huynh)
