@@ -1,18 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                            __    __   ______   _______     */
-/*   main.c                                  /  |  /  | /      \ /       \    */
+/*   game.c                                  /  |  /  | /      \ /       \    */
 /*                                           $$ |  $$ |/$$$$$$  |$$$$$$$  |   */
 /*   juk3 <admin@rejects.com>                $$ |__$$ |$$____$$ |$$ |__$$ |   */
 /*                                           $$    $$ | /    $$/ $$    $$<    */
 /*   Created: 2016/12/12 03:07:50            $$$$$$$$ |/$$$$$$/  $$$$$$$  |   */
-/*   Updated: 2016/12/12 03:11:08                  $$ |$$ |_____ $$ |  $$ |   */
+/*   Updated: 2016/12/12 03:28:58                  $$ |$$ |_____ $$ |  $$ |   */
 /*   Update by: juk3                               $$ |$$       |$$ |  $$ |   */
 /*                                                 $$/ $$$$$$$$/ $$/   $$/    */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "juk3.h"
+/*
+** need to "#include some_file.h" that has the following functions
+** and libraries: ft_putchar, ft_putstr, ft_putnbr, stdio.h, stdlib.h, unistd.h
+*/
 
 /*
 ** this builds the data struct and sets the questions with correct response expected
