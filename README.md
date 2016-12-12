@@ -2,7 +2,7 @@
 # C Synchronized Swimming December 2016
 
 ## What is this?
-This is the shared repository of [42 Rejects] (http://42rejects.com "42 Rejects")' December 2016 C Language Learning Group. Each member of the group has a folder containing their contributions, and the other team-projects folder contains more complex programs tackled by multi-person teams. For more information, visit [our Slack channel] (http://42rejects.slack.com "Slack").
+This is the shared repository of [42 Rejects] (http://42rejects.com "42 Rejects")' December 2016 C Language Learning Group. Each member of the group has a personal folder in solo-projects containing their individual contributions, and the other team-projects folder contains more complex programs tackled by multi-person teams. For more information, visit [our Slack channel] (http://42rejects.slack.com "Slack").
 
 ## Current work
 * Quiz Team Project
