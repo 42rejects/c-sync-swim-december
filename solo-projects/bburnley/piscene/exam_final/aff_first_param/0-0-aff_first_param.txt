@@ -1,0 +1,88 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r9p24.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Fri Nov 18 10:27:05 PST 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/include/c++/4.2.1
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/piscine-c-exam-final/exam_20161118/bburnley
+
+= Git history ==================================================================
+$> git -C /var/folders/tp/vg74xk4x5zd_85dnzz6p1z940000gp/T/tmptWh0em/user log --pretty='%H - %an, %ad : %s'
+526c438dec03760bbebd8d84290d69bf99d37c25 - Exam 42, Fri Nov 18 10:23:27 2016 -0800 : aff_first_param: tidying up, all provided tests pass
+9943dffe2040292784d198a104901f4c2436a657 - Exam 42, Fri Nov 18 10:18:52 2016 -0800 : aff_first_param: first draft
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/tp/vg74xk4x5zd_85dnzz6p1z940000gp/T/tmptWh0em/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  554 Nov 18 10:27 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Nov 18 10:27 aff_first_param
+
+/var/folders/tp/vg74xk4x5zd_85dnzz6p1z940000gp/T/tmptWh0em/user/aff_first_param:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1224 Nov 18 10:27 aff_first_param.c
+ 
+= aff_first_param ==============================================================
+$> gcc -Wextra -Wall -Werror aff_first_param.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./v4egjtm9t2seywmsqp68h715 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./yachpe499dantukduap7exx7 "e4Ztp2ov5X"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./pyw7qmccaac3e8ar4u6ifqb4 "7LktaphCrZd8P"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./9d7nbckfgcpinu4i7o2s3hkt "fqr9aFQdAn EkxPqcyCKFN RKT8C2LE M T3"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./jiz9chs3yqsjbdgf7hzvoc0t "m4Cyblfi Ck Zs4R Q iFa9Hc0t Pf6ul8NoU"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./5ej067wjcioae7x8p3pm2xcm "ln6b" "wWS" "biYRIz3Gv" "hGlqt" "byJef2wxlZm" "RTpyq9mt6" "LeFIitMEU" "xS63Ep7" "4rvwHP"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./z70ya6nd1w5wp9k9nq8ry9kt "4lh8" "Gg" "wx2YhUSsf" "k7x5A" "pBwiZz2"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./pscxzs8uaj4qn4zfyd5l7l3j "kb8EvlZ hRqJT2uP QP6ejlH" "0c2VNbJn zKhLbRV EuqCyZ9NV3mA" "H3z78SPCp6 hFpD4Xt mXECN0wr" "fjoA" "G9akWN16 WvGQE9c" "nKxUQTtY" "U5HJwGv7 2eY1Ija qgj3T" "GpAn" "aPOzQ8 1CNYRbefka" "A OlU" "Gbxq5jRXs3DW N3zPKgFUt T4" "QBaP6SZ"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./ecgruawknkge2hkxh4sg01ir "Gfw HB03D" "eHGTPVtjr zvD q6myGBPWxLg" "G JvAjg MJ6TSm Ax7kOm8Y" "MHgJUIwVk Wp1TuskwEh" "1dtUVWnTsJCx" "F2vGDh 6 QF29Kjn" "vc" "0fEXG"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

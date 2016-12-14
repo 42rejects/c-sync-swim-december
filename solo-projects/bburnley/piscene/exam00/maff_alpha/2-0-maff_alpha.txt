@@ -1,0 +1,59 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r3p42.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Fri Oct 28 18:57:36 PDT 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/piscine-c-exam00/exam_20161029/bburnley
+
+= Git history ==================================================================
+$> git -C /var/folders/qn/k2bv_h950ml81hnyf788vdsw0000gp/T/tmpvbc_oo/user log --pretty='%H - %an, %ad : %s'
+2bc57f029e59cca25a50d5a567563e28b5631eac - Exam 42, Fri Oct 28 18:56:24 2016 -0700 : Ex3
+4dcb0c1fbd8bf7fa38535fc2b1c7c88d5127da26 - Exam 42, Fri Oct 28 18:37:28 2016 -0700 : Ex2
+4ccd84334ad3a4d87abc45a23f61a0c6a6faf45b - Exam 42, Fri Oct 28 18:18:02 2016 -0700 : Ex 1
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/qn/k2bv_h950ml81hnyf788vdsw0000gp/T/tmpvbc_oo/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  697 Oct 28 18:57 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Oct 28 18:57 ft_print_numbers
+drwxr-xr-x  3 deepthought  deepthought  102 Oct 28 18:57 maff_alpha
+drwxr-xr-x  3 deepthought  deepthought  102 Oct 28 18:57 only_z
+
+/var/folders/qn/k2bv_h950ml81hnyf788vdsw0000gp/T/tmpvbc_oo/user/ft_print_numbers:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1013 Oct 28 18:57 ft_print_numbers.c
+
+/var/folders/qn/k2bv_h950ml81hnyf788vdsw0000gp/T/tmpvbc_oo/user/maff_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1149 Oct 28 18:57 maff_alpha.c
+
+/var/folders/qn/k2bv_h950ml81hnyf788vdsw0000gp/T/tmpvbc_oo/user/only_z:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1047 Oct 28 18:57 only_z.c
+ 
+= maff_alpha ===================================================================
+$> gcc -Wextra -Wall -Werror maff_alpha.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./pekh9q6dex38qq8vtk8e0m6y test1.prm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

@@ -1,0 +1,91 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r2p11.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Fri Nov 11 21:26:59 PST 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/piscine-c-exam02/exam_20161112/bburnley
+
+= Git history ==================================================================
+$> git -C /var/folders/_c/t2r8zxrd4pgcbdvb97s73jxr0000gp/T/tmp5tRY3O/user log --pretty='%H - %an, %ad : %s'
+d6ab2996aa6c940da4b81f1925925ed66b59cd2f - Exam 42, Fri Nov 11 21:24:13 2016 -0800 : Solution to ex02-3
+ad1546ec3d290271b3d2a833befd43e25b44dd60 - Exam 42, Fri Nov 11 20:31:34 2016 -0800 : Solution to ex02-2
+d12ef5eadd8f082178539893cd860ff21ae82d5e - Exam 42, Fri Nov 11 19:16:47 2016 -0800 : Solution to ex02
+ad9cdce4e2875c869a65ee18f47723b809a4581e - Exam 42, Fri Nov 11 18:37:13 2016 -0800 : Solution to ex01
+57c1722a4f93b73d2efc09fa083e56c008352e71 - Exam 42, Fri Nov 11 18:09:08 2016 -0800 : Solution to ex00
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/_c/t2r8zxrd4pgcbdvb97s73jxr0000gp/T/tmp5tRY3O/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1287 Nov 11 21:27 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 11 21:27 ft_atoi
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 11 21:27 last_word
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 11 21:27 maff_alpha
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 11 21:27 print_bits
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 11 21:27 repeat_alpha
+
+/var/folders/_c/t2r8zxrd4pgcbdvb97s73jxr0000gp/T/tmp5tRY3O/user/ft_atoi:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1334 Nov 11 21:27 ft_atoi.c
+
+/var/folders/_c/t2r8zxrd4pgcbdvb97s73jxr0000gp/T/tmp5tRY3O/user/last_word:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1562 Nov 11 21:27 last_word.c
+
+/var/folders/_c/t2r8zxrd4pgcbdvb97s73jxr0000gp/T/tmp5tRY3O/user/maff_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1117 Nov 11 21:27 maff_alpha.c
+
+/var/folders/_c/t2r8zxrd4pgcbdvb97s73jxr0000gp/T/tmp5tRY3O/user/print_bits:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1337 Nov 11 21:27 print_bits.c
+
+/var/folders/_c/t2r8zxrd4pgcbdvb97s73jxr0000gp/T/tmp5tRY3O/user/repeat_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1431 Nov 11 21:27 repeat_alpha.c
+ 
+= last_word ====================================================================
+$> gcc -Wextra -Wall -Werror last_word.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./0w6amotlb5lddie9cq2prkkp 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./79nmhhnpjq0rtqfav715hgdr 
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./bl8pdcabvhvcrylqc8tdm968 "salut" "a" "tous" "tout" "le" "monde"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./ykl8qik8dmgy4m3kubpezlpt "GzSuwVe1txljXZTRs"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+--- user_output_test4	2016-11-11 21:27:00.000000000 -0800$
++++ test4.output	2016-11-11 21:27:00.000000000 -0800$
+@@ -1 +1 @@$
+-$
++GzSuwVe1txljXZTRs$
+
+Diff KO :(
+Grade: 0
+
+= Final grade: 0 ===============================================================

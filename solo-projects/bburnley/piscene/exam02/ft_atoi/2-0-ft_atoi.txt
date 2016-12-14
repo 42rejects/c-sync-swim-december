@@ -1,0 +1,96 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r5p3.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Fri Nov 11 19:19:29 PST 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/piscine-c-exam02/exam_20161112/bburnley
+
+= Git history ==================================================================
+$> git -C /var/folders/w1/416k0t_x1jj531m547th150w0000gp/T/tmpNt5vqT/user log --pretty='%H - %an, %ad : %s'
+d12ef5eadd8f082178539893cd860ff21ae82d5e - Exam 42, Fri Nov 11 19:16:47 2016 -0800 : Solution to ex02
+ad9cdce4e2875c869a65ee18f47723b809a4581e - Exam 42, Fri Nov 11 18:37:13 2016 -0800 : Solution to ex01
+57c1722a4f93b73d2efc09fa083e56c008352e71 - Exam 42, Fri Nov 11 18:09:08 2016 -0800 : Solution to ex00
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/w1/416k0t_x1jj531m547th150w0000gp/T/tmpNt5vqT/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  757 Nov 11 19:19 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Nov 11 19:19 ft_atoi
+drwxr-xr-x  3 deepthought  deepthought  102 Nov 11 19:19 maff_alpha
+drwxr-xr-x  3 deepthought  deepthought  102 Nov 11 19:19 repeat_alpha
+
+/var/folders/w1/416k0t_x1jj531m547th150w0000gp/T/tmpNt5vqT/user/ft_atoi:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1334 Nov 11 19:19 ft_atoi.c
+
+/var/folders/w1/416k0t_x1jj531m547th150w0000gp/T/tmpNt5vqT/user/maff_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1117 Nov 11 19:19 maff_alpha.c
+
+/var/folders/w1/416k0t_x1jj531m547th150w0000gp/T/tmpNt5vqT/user/repeat_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1431 Nov 11 19:19 repeat_alpha.c
+ 
+= ft_atoi ======================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_atoi.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./o28aaowyg0iexiytg6qhcvxj 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./tbfo3nr6kniqsublfna9fuml "21" "2313"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./c815pfepkfqcxxm3qxxkhnio 2147483647
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./76o9zi052go3xwjdgkqqzki9 -2147483648
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./rrtgoirsloi56tvs8vworgrv 0
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./s9hyu2h7z3n1x9ek7wbm72rl 12211t11
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./jsecbmf5auogdl9hmd2jkq6v --223
+$> diff -U 3 user_output_test7 test7.output | cat -e
+--- user_output_test7	2016-11-11 19:19:32.000000000 -0800$
++++ test7.output	2016-11-11 19:19:32.000000000 -0800$
+@@ -1 +1 @@$
+--223$
+\ No newline at end of file$
++0$
+\ No newline at end of file$
+
+Diff KO :(
+Grade: 0
+
+= Final grade: 0 ===============================================================
