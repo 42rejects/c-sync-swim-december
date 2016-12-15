@@ -1,0 +1,66 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z1r5p36.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Fri Nov 11 20:33:31 PST 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/piscine-c-exam02/exam_20161112/bburnley
+
+= Git history ==================================================================
+$> git -C /var/folders/9f/bx_qbzh50bs1fw4mh6blygk80000gp/T/tmpnEU8oj/user log --pretty='%H - %an, %ad : %s'
+ad1546ec3d290271b3d2a833befd43e25b44dd60 - Exam 42, Fri Nov 11 20:31:34 2016 -0800 : Solution to ex02-2
+d12ef5eadd8f082178539893cd860ff21ae82d5e - Exam 42, Fri Nov 11 19:16:47 2016 -0800 : Solution to ex02
+ad9cdce4e2875c869a65ee18f47723b809a4581e - Exam 42, Fri Nov 11 18:37:13 2016 -0800 : Solution to ex01
+57c1722a4f93b73d2efc09fa083e56c008352e71 - Exam 42, Fri Nov 11 18:09:08 2016 -0800 : Solution to ex00
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/9f/bx_qbzh50bs1fw4mh6blygk80000gp/T/tmpnEU8oj/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1022 Nov 11 20:33 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 11 20:33 ft_atoi
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 11 20:33 maff_alpha
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 11 20:33 print_bits
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 11 20:33 repeat_alpha
+
+/var/folders/9f/bx_qbzh50bs1fw4mh6blygk80000gp/T/tmpnEU8oj/user/ft_atoi:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1334 Nov 11 20:33 ft_atoi.c
+
+/var/folders/9f/bx_qbzh50bs1fw4mh6blygk80000gp/T/tmpnEU8oj/user/maff_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1117 Nov 11 20:33 maff_alpha.c
+
+/var/folders/9f/bx_qbzh50bs1fw4mh6blygk80000gp/T/tmpnEU8oj/user/print_bits:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1337 Nov 11 20:33 print_bits.c
+
+/var/folders/9f/bx_qbzh50bs1fw4mh6blygk80000gp/T/tmpnEU8oj/user/repeat_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1431 Nov 11 20:33 repeat_alpha.c
+ 
+= print_bits ===================================================================
+$> gcc -Wextra -Wall -Werror main.c print_bits.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./r9kwycjj6k23jsd1nzbid9d3
+$> diff -U 3 user_output_test1 test1.output | cat -e
+Binary files user_output_test1 and test1.output differ$
+
+Diff KO :(
+Grade: 0
+
+= Final grade: 0 ===============================================================

@@ -1,0 +1,74 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r2p4.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Fri Oct 28 21:09:12 PDT 2016
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 7.3.0 (clang-703.0.31)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2016/piscine-c-exam00/exam_20161029/bburnley
+
+= Git history ==================================================================
+$> git -C /var/folders/yr/23dcntb508j8q8shkpr3x8580000gp/T/tmpDcNEhj/user log --pretty='%H - %an, %ad : %s'
+04b3c4173e72feecaa1137e338c166741424cb56 - Exam 42, Fri Oct 28 21:08:30 2016 -0700 : Ex5 - This is, without doubt, the most convoluted implementation of atoi ever concieved. I'm not sure it'll pass Molinette, but I'd bet it functions or is within a slim margin of error for functioning. It's hideous. I love it.
+a5aa248f2e2b12f9265ec3486e46df939456e002 - Exam 42, Fri Oct 28 20:05:27 2016 -0700 : Ex4 - I wish I knew more about character arrays. I feel this one is very close, but I'm not sure I'm operating on the whole array and not just a slice of it.
+2bc57f029e59cca25a50d5a567563e28b5631eac - Exam 42, Fri Oct 28 18:56:24 2016 -0700 : Ex3
+4dcb0c1fbd8bf7fa38535fc2b1c7c88d5127da26 - Exam 42, Fri Oct 28 18:37:28 2016 -0700 : Ex2
+4ccd84334ad3a4d87abc45a23f61a0c6a6faf45b - Exam 42, Fri Oct 28 18:18:02 2016 -0700 : Ex 1
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/yr/23dcntb508j8q8shkpr3x8580000gp/T/tmpDcNEhj/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1547 Oct 28 21:09 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Oct 28 21:09 ft_atoi
+drwxr-xr-x  3 deepthought  deepthought   102 Oct 28 21:09 ft_print_numbers
+drwxr-xr-x  3 deepthought  deepthought   102 Oct 28 21:09 ft_strcpy
+drwxr-xr-x  3 deepthought  deepthought   102 Oct 28 21:09 maff_alpha
+drwxr-xr-x  3 deepthought  deepthought   102 Oct 28 21:09 only_z
+
+/var/folders/yr/23dcntb508j8q8shkpr3x8580000gp/T/tmpDcNEhj/user/ft_atoi:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1542 Oct 28 21:09 ft_atoi.c
+
+/var/folders/yr/23dcntb508j8q8shkpr3x8580000gp/T/tmpDcNEhj/user/ft_print_numbers:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1013 Oct 28 21:09 ft_print_numbers.c
+
+/var/folders/yr/23dcntb508j8q8shkpr3x8580000gp/T/tmpDcNEhj/user/ft_strcpy:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1015 Oct 28 21:09 ft_strcpy.c
+
+/var/folders/yr/23dcntb508j8q8shkpr3x8580000gp/T/tmpDcNEhj/user/maff_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1149 Oct 28 21:09 maff_alpha.c
+
+/var/folders/yr/23dcntb508j8q8shkpr3x8580000gp/T/tmpDcNEhj/user/only_z:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1047 Oct 28 21:09 only_z.c
+ 
+= ft_atoi ======================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_atoi.c -o user_exe 
+ft_atoi.c:34:12: error: subscripted value is not an array, pointer, or vector
+        while (str[i] != '\0')
+               ~~~^~
+ft_atoi.c:50:17: error: subscripted value is not an array, pointer, or vector
+                result += (str[x] * ft_powers(size));
+                           ~~~^~
+2 errors generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= Final grade: 0 ===============================================================

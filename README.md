@@ -2,9 +2,10 @@
 # C Synchronized Swimming December 2016
 
 ## What is this?
-This is the shared repository of [42 Rejects] (http://42rejects.com "42 Rejects")' December 2016 C Language Learning Group. Each member of the group has a folder containing their contributions. For more information, visit [our Slack channel] (http://42rejects.slack.com "Slack").
+This is the shared repository of [42 Rejects] (http://42rejects.com "42 Rejects")' December 2016 C Language Learning Group. Each member of the group has a personal folder in solo-projects containing their individual contributions, and the other team-projects folder contains more complex programs tackled by multi-person teams. For more information, visit [our Slack channel] (http://42rejects.slack.com "Slack").
 
 ## Current work
+* Quiz Team Project
 * K&R book chapter 1 exercises
 * Piscene Day02 exercises
 * [#AlwaysBeCoding] (https://twitter.com/42rejects) exercises
@@ -17,7 +18,10 @@ This is the shared repository of [42 Rejects] (http://42rejects.com "42 Rejects"
 ## Members
 * [toymechqm] (https://github.com/toymechqm) (Josh Toy)
 * [iJUK3i] (https://github.com/iJUK3i) (Khris Smith)
+* [rumpumpum] (https://github.com/rumpumpum) (Eugene Botnaru)
+* [truth-seeker1] (https://github.com/truth-seeker1) (Bryndyn Fernander)
+* [JamesOrtzz] (https://github.com/JamesOrtzz) (Jonathan Ortiz)
+* [danr94] (https://github.com/danr94) (Danny Huynh)
+* [1flood23] (https://github.com/1flood23) (Harris Wells)
 * [sdk7327] (https://github.com/sdk7327) (Sarah Kohl)
 * [roccaturi] (https://github.com/roccaturi) (Brian Burnley)
-
-This is the shared repository of [42 Rejects] (http://42rejects.com "42 Rejects")' December 2016 C Language Learning Group. Each member of the group has a folder containing their contributions. For more information, visit [our Slack channel] (http://42rejects.slack.com "Slack").
