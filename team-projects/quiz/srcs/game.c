@@ -6,16 +6,13 @@
 /*   juk3 <admin@rejects.com>                $$ |__$$ |$$____$$ |$$ |__$$ |   */
 /*                                           $$    $$ | /    $$/ $$    $$<    */
 /*   Created: 2016/12/12 03:07:50            $$$$$$$$ |/$$$$$$/  $$$$$$$  |   */
-/*   Updated: 2016/12/15 10:01:40                  $$ |$$ |_____ $$ |  $$ |   */
+/*   Updated: 2016/12/15 11:21:24                  $$ |$$ |_____ $$ |  $$ |   */
 /*   Update by: juk3                               $$ |$$       |$$ |  $$ |   */
 /*                                                 $$/ $$$$$$$$/ $$/   $$/    */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
-** need to "#include some_file.h" that has the following functions
-** and libraries: ft_putchar, ft_putstr, ft_putnbr, stdio.h, stdlib.h, unistd.h
-*/
+#include "quiz.h"
 
 /*
 ** this builds the data struct and sets the questions with correct response expected
@@ -157,7 +154,7 @@ int		game(void)
 				return(10);
 			}
 			i++;
-			ft_putstr(" Your currently have $");
+			ft_putstr(" You currently have $");
 			ft_putnbr(i);
 			ft_putstr("00,000");
 			ft_putchar('\n');
@@ -168,5 +165,4 @@ int		game(void)
 			return(i);
 		}
 	}
-	return (0);
 }
