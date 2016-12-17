@@ -15,6 +15,6 @@ int	help(void)
 	ft_putstr("How to win:\n \
 	To win you must answer as many questions right as possible. goodluck\n\n");
 	ft_putstr("Click the ENTER key to return to the menu page\n");
-	getchar();
+	getchar();	//currently only works if you press ENTER
 	return (0);
 }
